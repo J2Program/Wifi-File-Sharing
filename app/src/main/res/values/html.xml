@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="with_bootstrap"><![CDATA[  ]]></string>
+
+    <string name="header_start"><![CDATA[<html><head><title>Apex Android File Downloader</title>]]></string>
+    <string name="header_end"><![CDATA[</head><body>
+
+
+    <div class="container container-fluid">
+
+    <div class="apex" style="color:black">
+    <h1><img src="wf_images/logo.png" style="width:80px;margin:5px">Apex Android File Downloader </h1>
+    </div>
+
+    <div id="bodyContainer">]]></string>
+    <string name="upload_form_start"><![CDATA[
+            <form method="post" action="]]></string>
+
+    <string name="upload_form_end"><![CDATA[" enctype="multipart/form-data">
+
+            <div><input type="file" name="upfile" multiple class="btn btn-success"/>
+
+            <input type="submit" value="Send" class="btn btn-success" /></div>
+
+             </form>
+            <button id="layoutButton" onclick="changeLayout()" class="btn btn-success">Change Layout</button>
+            ]]></string>
+    <string name="container_start"><![CDATA[<table class="table table-striped table-bordered" id="contentContainer"><tr>]]></string>
+    <string name="navigation_start"><![CDATA[<td id="navigationContainer">]]></string>
+    <string name="navigation_end"><![CDATA[</td>]]></string>
+    <string name="directory_start"><![CDATA[<td id="directoryContainer">]]></string>
+
+    <string name="table_head"><![CDATA[<div id="tableHead">
+            <span id="sortByNameSpan" onclick="sortByName()">Name</span>
+            <span id="sortBySizeSpan" onclick="sortBySize()">Size</span>
+            <span id="sortByDateSpan" onclick="sortByDate()">Last Modified</span>
+            </div>]]></string>
+    <string name="directory_end"><![CDATA[</td><tbody>]]></string>
+
+    <string name="container_end"><![CDATA[</tr></tbody></table></div>
+    </div>
+    </body></html>]]></string>
+    <string name="login_markup_start"><![CDATA[<form action="]]></string>
+    <string name="login_markup_end"><![CDATA[" enctype="multipart/form-data" method="post">Password:
+            <input type="password" name=password>
+            <input type="submit" value="Submit">
+            </form>]]></string>
+</resources>
